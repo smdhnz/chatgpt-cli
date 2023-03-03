@@ -1,0 +1,14 @@
+.git
+.gitignore
+
+README.md
+
+dist
+node_modules
+
+.env
+.env.example
+
+Dockerfile
+.dockerignore
+
