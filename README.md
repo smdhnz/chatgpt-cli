@@ -4,7 +4,7 @@
 
 1. `git clone https://github.com/smdhnz/chatgpt-cli.git && cd chatgpt-cli`
 
-1. OpenAI APIのサイト( https://platform.openai.com/signup )でAPIキーを用意する
+1. OpenAI APIのサイト( https://platform.openai.com/overview )でAPIキーを用意する
 
 1. `cp .env.example .env`で`.env`を作る
 
