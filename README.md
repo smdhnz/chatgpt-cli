@@ -1,5 +1,11 @@
 # ChatGPT CLI
 
+## 依存環境
+
+- docker
+- node
+- yarn
+
 ## 使い方
 
 1. `git clone https://github.com/smdhnz/chatgpt-cli.git && cd chatgpt-cli`
