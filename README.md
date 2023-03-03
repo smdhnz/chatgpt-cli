@@ -3,8 +3,7 @@
 ## 依存環境
 
 - docker
-- node
-- yarn
+- yarn (なくてもいい)
 
 ## 使い方
 
@@ -16,9 +15,9 @@
 
 1. `.env`にAPIキーをぶちこむ
 
-1. `yarn build:docker`でdockerでイメージを作る。
+1. `yarn build:docker`でdockerでイメージを作る。(yarnなければ`docker build -t chatgpt-cli:latest .`)
 
-1. `yarn start`で実行
+1. `yarn start`で実行(yarnなければ`docker run --env-file=.env --rm -it chatgpt-cli:latest`)
 
 ## 説明
 
@@ -33,4 +32,4 @@
 
 一番下の金額は、会話ごとのおおよその累積金額で、単位はドル
 
-ちなみに、初回18ドルまでは無料(たぶん)
+ちなみに、OpenAIのアカウント作ってから18ドルまでは無料(2023年3月3日時点)
